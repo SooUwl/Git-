@@ -10,7 +10,7 @@ class Example(QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi("UI.ui", self)
-        self.btn.clicked.connect(self.paint)
+        self.button.clicked.connect(self.paint)
         self.flag = False
         self.t = randint(60, 250)
 
